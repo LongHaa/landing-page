@@ -1,0 +1,165 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header-container {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-links li {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+/* Hero Section */
+.description-container {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.description {
+  max-width: 50%;
+}
+
+.description-header {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.signup-button {
+  padding: 10px 20px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.description-img {
+  background-color: #e5e7eb;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+  font-size: 14px;
+}
+
+/* Info Section */
+.info-container {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.info-container h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.subinfo {
+  width: 200px;
+  text-align: center;
+}
+
+.info-img {
+  width: 100%;
+  height: 150px;
+  background-color: #e5e7eb;
+  margin-bottom: 10px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #1f2937;
+}
+
+/* Quote Section */
+.quote-cotainer {
+  background-color: #e5e7eb;
+  padding: 80px;
+  text-align: center;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* CTA Section */
+.cta-container {
+  background-color: #3882f6;
+  color: white;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 40px 80px;
+}
+
+.cta h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  font-size: 16px;
+}
+
+.signup-button.cta {
+  background-color: white;
+  color: #3882f6;
+}
